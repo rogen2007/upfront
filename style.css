@@ -2,7 +2,7 @@
   display: none;
 }
 .nav{
-     background-color: #0f57bae5;
+     background-color: #0096ff96;
      list-style-type: none;
      text-align: center;
      margin: 0;
@@ -13,23 +13,38 @@
         font-size: 15px;
         padding: 15px;
 }
-.iframe{
-    text-align: center;
-    height: auto;
-    weight: auto;
-}
 .form{
     text-align: center;
     height: 300px;
+    border-radius:45px;
     background-color: #1049bed0;  
 }
-.form input{
+.form input,form button{
     text-align: center;
-    height: 14px;
-    border: 10px;
+    height: 34px;
+    border-radius: 9px;
+    border: none;
     background-color: #ffffff;
 }
-.form button{
-    height: 20px;
-    boder: 10px;
+.body{
+    background-color: #00c0ffbb;
+}
+.post{
+    background-color: #1049bed0;
+    
+}
+.post img{
+  width: px;
+  height: 344px;
+}
+.button{
+            text-align: center;
+}
+.button li{
+        display: inline-block;
+        font-size: 15px;
+        padding: 10px;   
+        margin: 10px;
+        border-radius: 10px;
+        background: #00ffeada;  
 }
